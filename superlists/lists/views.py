@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.core.exceptions import ValidationError
 
-from lists.models import Item, List
+from .models import Item, List
 
 # Create your views here.
 def home_page(request):
