@@ -1,5 +1,7 @@
 from django.test import TestCase
+from django.http import HttpRequest
 from django.utils.html import escape
+from django.core.urlresolvers import resolve
 
 from lists.models import Item, List
 from lists.views import home_page
